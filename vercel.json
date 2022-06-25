@@ -1,0 +1,3 @@
+{
+  "rewreites": [{ "source": "/(*)", "": "./src/pages/PageNotFound" }]
+}
