@@ -23,6 +23,9 @@ export function Subscribe() {
     navigate('/event')
   }
 
+  const codeMockup = new URL("/src/assets/code-mockup.png", import.meta.url).href
+
+
   return (
     <div className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center">
       <div className="w-full max-w-[1100px] flex items-center justify-between mt-20 mx-auto">
@@ -69,7 +72,7 @@ export function Subscribe() {
         </div>
       </div>
 
-      <img src="/src/assets/code-mockup.png" alt="" />
+      <img src={codeMockup} alt="Code Mochup" />
     </div>
   )
 }
