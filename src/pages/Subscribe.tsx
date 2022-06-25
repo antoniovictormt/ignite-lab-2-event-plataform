@@ -23,7 +23,7 @@ export function Subscribe() {
     navigate('/event')
   }
 
-  const codeMockup = new URL("/src/assets/code-mockup.png", import.meta.url).href
+  const codeMockup = new URL("../assets/code-mockup.png", import.meta.url).href
 
 
   return (
